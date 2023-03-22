@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="move.js"></script>
+    <script type="module" src="classes.js" defer></script>
+    <script type="module" src="platforms.js" defer></script>
+    <script type="module" src="menu.js" defer></script>
+  </head>
+  <body>
+      <div id="screen">
+        <div id="healthbar"><div id="health"></div></div>
+        <div id="floor"></div>
+        <img id="player" src="sprites/knight/knightR.png" draggable="false">
+        <div id="platforms"></div>
+        <div id="projectiles"></div>
+          <!-- <div class="platforms"></div> -->
+        <div id="deathscreen" class="screens"><p id="deathText">You got defeated</p>
+          <button onclick="window.location.reload()" id="restart">Play again</button>
+        </div>
+      </div>
+
+
+  </body>
+</html>
