@@ -188,6 +188,7 @@ body{
   height:auto;
   top:10%;
   left:5%;
+  image-rendering:pixelated;
 }
 
 /* @media screen and (orientation: landscape){
