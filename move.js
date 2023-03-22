@@ -184,7 +184,7 @@ function changeX2(){
         speed=1
         platforms.changeProbabilities(classes.gamemode2.level,classes.gamemode2.progress)
       }
-      if (classes.gamemode2.progress>=2{
+      if (classes.gamemode2.progress>=2){
           document.getElementById("control1").style.visibility="hidden"
           }
       break;
