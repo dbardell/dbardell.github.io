@@ -183,6 +183,13 @@ body{
   background-color: #660;
 }
 
+#control1{
+  width:20%;
+  height:auto;
+  top:10%;
+  left:5%;
+}
+
 /* @media screen and (orientation: landscape){
   #screen{
     height:100%;
